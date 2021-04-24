@@ -58,7 +58,7 @@ async def text(bot, update):
                 ],
                 [
                     InlineKeyboardButton('Other Bots', url='https://t.me/ARNextRobot'),
-                    InlineKeyboardButton('Support Group', url='https://github.com/No-OnE-Kn0wS-Me/FileRenameBot')
+                    InlineKeyboardButton('Support Group', url='https://t.me/ARNextRobotGroup')
                 ]
             ]
         ),
