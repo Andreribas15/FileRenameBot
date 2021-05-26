@@ -149,7 +149,7 @@ async def rename_doc(bot, update):
                await update.reply_text(" Sorry, You are **B A N N E D**")
                return
         except UserNotParticipant:
-            #await update.reply_text(f"Join @{update_channel} To Use Me")
+            #await update.reply_text(f"Join @{update_channel} to use me")
             await update.reply_text(
                 text="**Please Join My Update Channel Before Using Me..**",
                 reply_markup=InlineKeyboardMarkup([
