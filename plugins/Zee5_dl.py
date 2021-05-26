@@ -86,7 +86,7 @@ async def zee5_capture(bot, update):
             return
             
     else:
-        await update.reply_text("I can download from Zee5 links only! Use any url uploader for other links 😇", quote=True)
+        await update.reply_text("I can download from Zee5 links only! Go to @ARNextRobot for more Download bots 😇", quote=True)
         return
     
     try:
